@@ -1,0 +1,70 @@
+// const request = new XMLHttpRequest();
+
+// request.open('GET','https://reqres.in/api/users?delay=3');
+// request.send();
+    // console.log(this.responseText)
+
+//     data1.data.forEach(data => {
+    //         markup += `
+    //         <div class="col">
+    //             <div class="card shadow-sm">
+    //             <div class="card-body">
+    //                 <p class="card-text fw-bold ">${data.first_name}</p>
+    //                 <p class="card-email fw-light">${data.email}</p>
+    //                 <img src="${data.avatar}" alt="users" class="img-thumbnail" />
+    //                 <div class="d-flex justify-content-between align-items-center">
+    //                     <div class="btn-group">
+    //                         <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+    //                         <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+    //                         <button type="button" class="btn btn-sm btn-outline-secondary">Delete</button>
+    //                     </div>  
+    //                 </div>
+    //             </div>
+    //             </div>
+    //         </div>
+    //     `;
+    //     usersContainer.insertAdjacentHTML('beforeend',markup);
+    // })
+    // const request = new XMLHttpRequest();
+// request.open('GET','https://reqres.in/api/users?delay=3');
+// request.send();
+// request.addEventListener('load', function(){
+//     const data = JSON.parse(this.responseText);
+//     console.log(data); 
+    
+//     renderMarkup(data);
+
+//     const request2 = new XMLHttpRequest();
+
+//     request2.open('GET','https://reqres.in/api/users/?page=2');
+//     request2.send();
+//     request2.addEventListener('load', function(){
+//         const data1 = JSON.parse(this.responseText);
+//         console.log(data1); 
+        
+//         renderMarkup(data1);
+//     });
+// });
+
+
+//     let modelMarkup = `
+//     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+//     <div class="modal-dialog">
+//       <div class="modal-content">
+//         <div class="modal-header">
+//           <h5 class="modal-title" id="exampleModalLabel">User Profile</h5>
+//           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+//         </div>
+//         <div class="modal-body">
+//           <p class='model-user-name'></p>
+//           <p class='model-user-email'></p>
+//           <p class='model-user-image'></p>
+//         </div>
+//         <div class="modal-footer">
+//           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+//         </div>
+//       </div>
+//     </div>
+//   </div>
+//     `;
+//     usersContainer.insertAdjacentHTML('afterbegin',modelMarkup);
